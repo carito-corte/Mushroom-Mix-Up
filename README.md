@@ -55,7 +55,7 @@ GitHub Desktop
 1. Clonar el repositorio.
 
 ```bash
-git clone https://github.com/USUARIO/Mushroom-Mix-Up.git
+git clone https://github.com/carito-corte/Mushroom-Mix-Up/tree/main
 ```
 
 2. Abrir Unity Hub.
