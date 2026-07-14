@@ -28,18 +28,22 @@ The goal of the game is to provide an interactive experience in which the player
 Below are some screenshots showing how the video game works and the main mechanics implemented during its development.
 
 ## Start of the game
+<img width="1167" height="653" alt="inicio de partida " src="https://github.com/user-attachments/assets/1686144a-432f-4ca1-9534-db82fe7c9914" />
 
 
 
 ## Gameplay
+<img width="1264" height="704" alt="desarrollo de juego" src="https://github.com/user-attachments/assets/dbcc72fe-1f69-4285-98a1-dd7308a7f6ad" />
 
 
 
 ## Victory Condition
+<img width="1280" height="709" alt="condicion victoria " src="https://github.com/user-attachments/assets/7305f834-f7f3-4a8c-961c-af688541115b" />
 
 
 
 ## Condition of Defeat
+<img width="1261" height="704" alt="condicion derrota " src="https://github.com/user-attachments/assets/8443ded0-f484-44ec-a759-f270e96bffe3" />
 
 
 
