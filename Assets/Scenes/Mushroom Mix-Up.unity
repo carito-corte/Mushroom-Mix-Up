@@ -264,7 +264,8 @@ MonoBehaviour:
   gravityScale: 3
   groundCheckDistance: 0.15
   seamBufferThreshold: 0.12
-  squishDuration: 2
+  squishDuration: 1.5
+  hitParticlePrefab: {fileID: 1429954232896169633, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
   runSounds:
   - {fileID: 8300000, guid: 93d1fa35334bddb48b593b50116e3293, type: 3}
   - {fileID: 8300000, guid: 5d4ad90ecb9ad3642b5eafd393611a58, type: 3}
@@ -1233,7 +1234,8 @@ MonoBehaviour:
   seamBufferThreshold: 0.12
   targetRadiusOffset: 0.2
   aggroRadius: 0.8
-  squishDuration: 2
+  squishDuration: 1.5
+  hitParticlePrefab: {fileID: 1429954232896169633, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
   minDecisionTime: 0.2
   maxDecisionTime: 0.5
   runSounds:
@@ -2383,7 +2385,8 @@ MonoBehaviour:
   seamBufferThreshold: 0.12
   targetRadiusOffset: 0.2
   aggroRadius: 0.8
-  squishDuration: 2
+  squishDuration: 1.5
+  hitParticlePrefab: {fileID: 1429954232896169633, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
   minDecisionTime: 0.2
   maxDecisionTime: 0.5
   runSounds:
@@ -3289,7 +3292,8 @@ MonoBehaviour:
   seamBufferThreshold: 0.12
   targetRadiusOffset: 0.2
   aggroRadius: 0.8
-  squishDuration: 2
+  squishDuration: 1.5
+  hitParticlePrefab: {fileID: 1429954232896169633, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
   minDecisionTime: 0.2
   maxDecisionTime: 0.5
   runSounds:

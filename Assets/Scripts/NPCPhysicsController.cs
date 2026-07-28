@@ -28,6 +28,9 @@ public class NPCPhysicsController : MonoBehaviour
     private bool isSquished = false;
     private Vector3 originalScale;
 
+    [Header("Visual Effects")]
+    [SerializeField] private GameObject hitParticlePrefab;
+
     [Header("AI Decision Timers")]
     [SerializeField] private float minDecisionTime = 0.2f;
     [SerializeField] private float maxDecisionTime = 0.5f;
@@ -519,6 +522,11 @@ public class NPCPhysicsController : MonoBehaviour
     public void GetSquished()
     {
         if (isSquished || inWater) return;
+        if (hitParticlePrefab != null)
+        {
+            Vector3 hitPos = transform.position + Vector3.up * 0.5f;
+            Instantiate(hitParticlePrefab, hitPos, Quaternion.identity);
+        }
         StartCoroutine(SquishRoutine());
     }
 

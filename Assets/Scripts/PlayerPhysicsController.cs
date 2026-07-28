@@ -24,6 +24,9 @@ public class PlayerPhysicsController : MonoBehaviour
     [Header("Squish Effect (Flattening)")]
     [SerializeField] private float squishDuration = 2.0f;
 
+    [Header("Visual Effects")]
+    [SerializeField] private GameObject hitParticlePrefab;
+
     [Header("Audio SFX Assets")]
     [SerializeField] private AudioClip[] runSounds;
     [SerializeField] private AudioClip jumpSound;
@@ -405,7 +408,12 @@ public class PlayerPhysicsController : MonoBehaviour
 
     public void GetSquished()
     {
-        if (isSquished) return;
+        if (isSquished || inWater) return;
+        if (hitParticlePrefab != null)
+        {
+            Vector3 hitPos = transform.position + Vector3.up * 0.5f;
+            Instantiate(hitParticlePrefab, hitPos, Quaternion.identity);
+        }
         StartCoroutine(SquishRoutine());
     }
 
